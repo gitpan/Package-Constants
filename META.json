@@ -4,7 +4,7 @@
       "Jos Boumans <kane[at]cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.8, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -32,7 +32,8 @@
       },
       "runtime" : {
          "requires" : {
-            "Test::More" : "0"
+            "Test::More" : "0",
+            "perl" : "5.006"
          }
       }
    },
@@ -42,5 +43,5 @@
          "url" : "git://github.com/jib/package-constants.git"
       }
    },
-   "version" : "0.04"
+   "version" : "0.06"
 }
